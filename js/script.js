@@ -68,34 +68,126 @@ printf("hello")
 
 //display();
 //console.log(display());
-let x=display();
-console.log(x);
+// let x=display();
+// console.log(x);
 
-function display()
+// function display()
+// {
+//     console.log("Hello");
+//     return 1;
+
+
+// }
+// function sum()
+// {
+//     //console.log(arguments);
+// //console.log(arguments[0])
+//    // console.log(x,y);
+// }
+
+// sum(10,20,30);
+
+/*
+    fact,reverse of any digit(3466),
+    Valid Email
+    1. @
+    2. @ must not be the first character
+    3. Last 3/4 .   .com, .in
+
+    Palindrome
+
+
+*/
+/*
+//Callback functions
+function carService(callback)
 {
-    console.log("Hello");
-    return 1;
-    
+    console.log("Service...");
+    callback();
 
 }
-function sum()
+function carWash()
 {
-    //console.log(arguments);
-//console.log(arguments[0])
-   // console.log(x,y);
+    console.log("Wash ...")
+
 }
+function carDelivery()
+{
 
-sum(10,20,30);
+    console.log("Delivery...")
+}
+//carService(10);
+
+//carService(carWash);
+carService(carDelivery);
+
+//carWash();
+//carDelivery
+
+// function test()
+// {
+//     console.log("Test ...")
+// }
 
 
+// let x=10;
+// console.log(typeof x);
+// console.log(x);
+// let y=test;
+// console.log(typeof y);
+// console.log(y);
+// y();
 
+// let z=function(){
+//     console.log("Z called")
+// }
 
-
-
+// z();
 
 
 
 
 //console.log(message);
 
+*/
+//array
+/*
+ int arr[5];//compile time array
+ int arr[]={12,3,4,5,6};//dynamic
+ int arr[]=new int[5];//dynamic
+int arr[5];
+0-4 
+arr[5];
+arr[2]
+*(arr+2)
+*/
 
+//let arr=[3,40,50,"Data",34.3];
+//console.log(arr);
+
+// let arr=[23,3,4];
+// console.log(arr);
+// arr[30]=10;
+// console.log(arr);
+//push,pop,shift,unshift,splice
+
+let arr=[10,20,30,40,50];
+console.log(arr);
+// arr.push(100);
+// console.log(arr);
+// let element=arr.pop();
+// console.log(arr);
+// console.log(element);
+// arr.unshift(100);
+// console.log(arr);
+// let element=arr.shift();
+// console.log(arr);
+// console.log(element);
+
+// let element=arr.splice(1,2);
+// console.log(arr);
+// console.log(element)
+//arr.splice(1,2,100,200,300,400)
+//console.log(arr);
+for(i=0;i<arr.length;i++)
+    console.log(arr[i]);
