@@ -1,10 +1,10 @@
- "use strict"
-            // a=10;
-            // console.log(typeof a);
+"use strict"
+// a=10;
+// console.log(typeof a);
 
-            // a="Hello";
-            // console.log(typeof a);
-           // console.log(testData);
+// a="Hello";
+// console.log(typeof a);
+// console.log(testData);
 /*
            let testData=10;
             console.log(testData);
@@ -18,12 +18,12 @@ const data=10;
 /* day 2*/
 //var data='This is a string';
 //console.log(typeof data);
-var result=20;
-var data="Name"
+var result = 20;
+var data = "Name"
 //var message="the "+data+" of "+result+" is correct";
 //var message ="the "+data+" of "+result+" is correct";
-var message =`the ${data} of ${result} is correct`;
-message="This is a string";
+var message = `the ${data} of ${result} is correct`;
+message = "This is a string";
 
 // console.log(message.length);
 // message=  message.toLowerCase();
@@ -171,8 +171,8 @@ arr[2]
 // console.log(arr);
 //push,pop,shift,unshift,splice
 
-let arr=[10,20,30,40,50];
-console.log(arr);
+// let arr=[10,20,30,40,50];
+// console.log(arr);
 // arr.push(100);
 // console.log(arr);
 // let element=arr.pop();
@@ -189,5 +189,128 @@ console.log(arr);
 // console.log(element)
 //arr.splice(1,2,100,200,300,400)
 //console.log(arr);
+// for(i=0;i<arr.length;i++)
+//     console.log(arr[i]);
+/*
+let arr=[100,200,300,400];
+let arr1=[100,200,300,400,400];
+let arr2=[100,200,300];
+function myLogic(item,index)
+{
+    console.log("My Logic called arr...",index);
+
+
+}
+function myLogic1()
+{
+    console.log("Processing arr1...")
+}
+print(arr,myLogic);
+print(arr1,myLogic);
+
+
+//print(arr2);
+/*
 for(i=0;i<arr.length;i++)
     console.log(arr[i]);
+
+for(i=0;i<arr1.length;i++)
+    console.log(arr1[i]);
+
+for(i=0;i<arr2.length;i++)
+    console.log(arr2[i]);
+
+function print(array,callback)
+{
+    for(let i=0;i<array.length;i++)
+   // console.log(array[i]);
+        callback(array[i],i,array);
+
+
+}
+// function display(x)
+// {
+//     console.log(x);
+
+// }
+// display(console.log("Hello"));
+*/
+//forEach, filter, map
+// print(Array,callback)
+// forEach(Array,callback);
+//let arr=[100,200,300,400,500];
+//Traditional
+// for(i=0;i<arr.length;i++)
+//     console.log(arr[i]);
+
+// arr.forEach(myLogic);
+// function myLogic(item,index,array)
+// {
+//     console.log(item);
+
+// }
+
+
+// function test()
+// {
+//     console.log("TEst called...")
+// }
+// test();
+
+// let x=10;
+// console.log(typeof x);
+// console.log(x);
+
+// let y=test;
+// console.log(typeof y);
+// //console.log(y);
+// y();
+
+// arr.forEach(function(){
+
+// })
+// arr.forEach(function(){
+
+// });
+// print(arr,function(){
+
+// })
+// print(Array,callback)
+// let y=test;
+// let z=function(){
+
+// }
+// z();
+//arr.forEach(console.log)
+//filter
+let arr = [23, 4, 5, 78, 3];
+// let results=[]
+// // for(let i=0;i<arr.length;i++)
+// // {
+// //     if(arr[i]%2==0)
+// //         results.push(arr[i]);
+// // }
+// arr.forEach(function(item){
+//     if(item%2==0)
+//         results.push(item);
+// })
+//FILTER
+
+// let results=arr.filter(function(item){
+//         if(item%2==0)
+//             return true;
+// })
+
+//MAP
+// let results=[];
+// arr.forEach(function(item){
+//     results.push(item*2);
+// })
+let results = arr.map(function (item) {
+    if (item % 2 == 0)
+        return item * 2;
+    else
+        return item;
+
+})
+console.log(results);
