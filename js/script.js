@@ -18,12 +18,12 @@ const data=10;
 /* day 2*/
 //var data='This is a string';
 //console.log(typeof data);
-var result = 20;
-var data = "Name"
-//var message="the "+data+" of "+result+" is correct";
-//var message ="the "+data+" of "+result+" is correct";
-var message = `the ${data} of ${result} is correct`;
-message = "This is a string";
+// var result = 20;
+// var data = "Name"
+// //var message="the "+data+" of "+result+" is correct";
+// //var message ="the "+data+" of "+result+" is correct";
+// var message = `the ${data} of ${result} is correct`;
+// message = "This is a string";
 
 // console.log(message.length);
 // message=  message.toLowerCase();
@@ -283,7 +283,7 @@ function print(array,callback)
 // z();
 //arr.forEach(console.log)
 //filter
-let arr = [23, 4, 5, 78, 3];
+//let arr = [23, 4, 5, 78, 3];
 // let results=[]
 // // for(let i=0;i<arr.length;i++)
 // // {
@@ -306,11 +306,108 @@ let arr = [23, 4, 5, 78, 3];
 // arr.forEach(function(item){
 //     results.push(item*2);
 // })
-let results = arr.map(function (item) {
-    if (item % 2 == 0)
-        return item * 2;
-    else
-        return item;
+// let results = arr.map(function (item) {
+//     if (item % 2 == 0)
+//         return item * 2;
+//     else
+//         return item;
 
-})
-console.log(results);
+// })
+// console.log(results);
+/*
+class City
+{
+   char  name[];
+   float temp;
+   long population
+
+   getName()
+   {
+   }
+   getPopulation()
+   {
+   }
+}
+ test()
+ {}
+ City c=new City();
+
+
+    */
+
+//OBJECTS
+// let arr=[];
+// let obj={}
+// let cities=["ABC","XYZ","Z"];
+// let temp=[34,45.6,34.5];
+// let population=[23232,34343,4545];
+
+//Key-value pair
+// let obj={
+//     "name":"Test",
+//     "temp":34.2,
+//     population:23232,
+//     name:"Demo"
+// }
+
+// console.log(obj);
+let arr=[];
+let obj={
+    "name":"Test",
+    city:"ABC",
+    years:10,
+    "total students":1000,
+    history:[233034,232432],
+    locations:{"location1":"asdsadsad","location2":"asdsadsad"},
+    getName:getFullName
+
+};
+let obj1={
+    "name":"Testing",
+    city:"ABC",
+    years:10,
+    "total students":1000,
+    history:[233034,232432],
+    locations:{"location1":"asdsadsad","location2":"asdsadsad"},
+    getName:getFullName
+
+};
+
+function getFullName()
+{
+    console.log(this.name)
+}
+
+obj1.getName();
+//obj.name="Test";
+//console.log(obj);
+// console.log(obj.name);
+// obj.population=2000;
+// delete obj.city;
+
+// console.log(obj);
+
+// obj.history.forEach(function(item){
+//     console.log(item);
+
+// })
+//1. Object.keyname
+//2 Array notation
+//console.log(obj["name"]);
+//console.log(obj.name);
+//console.log(obj.total students);
+//console.log(obj["total students"]);
+//let test="name";
+//console.log(obj.test);
+//console.log(obj[test]);
+
+// for(let key in obj)
+// {
+//     console.log(key,obj[key]);
+
+// }
+obj.getName();
+
+const menu=[
+    {"id":"test"},{"id":"testing"}
+]
