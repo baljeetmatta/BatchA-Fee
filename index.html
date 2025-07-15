@@ -1,17 +1,30 @@
 <html>
     <head>
+        <style>
+            .format{
+                background-color: red;
+                padding:10px;
+
+            }
+        </style>
 
     </head>
     <body>
-            2 bytes
-            -32768 to +32767
-            int x=32770;
-System.out.println("Hello");
+        <p>another</p>
+       <p id="pContent"><b>First</b> </p>
+       <!-- <p onclick="clickHandler()">Second</p> -->
+        <!-- <img src="images/1.jpg" width="150" onmouseover="this.src='images/2.jpg'" onmouseout="this.src='images/1.jpg'"/> -->
+       <!-- <img src="images/1.jpg" width="150" onmouseover="changeImage(this)" />
+       -->
+        <!-- <input type="text" value="ABC"> -->
+         <img src="images/1.jpg" width="150" id="bigImage"/>
+         <div>
+            <img src="images/1.jpg" width="50" onmouseover="changeImage(this)"/>
+            <img src="images/2.jpg" width="50" onmouseover="changeImage(this)"/>
+            <img src="images/3.jpg" width="50" onmouseover="changeImage(this)"/>
+            <img src="images/4.jpg" width="50" onmouseover="changeImage(this)"/>
 
-        <script src="js/script.js">
-            
-
-        </script>
-       
+         </div>
+        <script src="js/dom.js"></script>
     </body>
 </html>
