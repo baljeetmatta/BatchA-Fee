@@ -1,30 +1,34 @@
 <html>
     <head>
-        <style>
-            .format{
-                background-color: red;
-                padding:10px;
-
-            }
-        </style>
 
     </head>
     <body>
-        <p>another</p>
-       <p id="pContent"><b>First</b> </p>
-       <!-- <p onclick="clickHandler()">Second</p> -->
-        <!-- <img src="images/1.jpg" width="150" onmouseover="this.src='images/2.jpg'" onmouseout="this.src='images/1.jpg'"/> -->
-       <!-- <img src="images/1.jpg" width="150" onmouseover="changeImage(this)" />
-       -->
-        <!-- <input type="text" value="ABC"> -->
-         <img src="images/1.jpg" width="150" id="bigImage"/>
-         <div>
-            <img src="images/1.jpg" width="50" onmouseover="changeImage(this)"/>
-            <img src="images/2.jpg" width="50" onmouseover="changeImage(this)"/>
-            <img src="images/3.jpg" width="50" onmouseover="changeImage(this)"/>
-            <img src="images/4.jpg" width="50" onmouseover="changeImage(this)"/>
+        <ul>
+            <li>UI Prepare</li>
+            <li>Unique ID-javascript</li>
+            <li>Javascript - Reference obtain</li>
+            <li>Logic</li>
+        </ul>
+        <!-- <p id="pContent">Content for Page</p>
+        <input type="button" id="button1" value="Send"/>
+        <button id="button2">Another</button> -->
+<input type="text" id="display" value="0"/>
+<div>
+    <button id="button0" class="digits">0</button>
+    <button id="button1"  class="digits">1</button>
+    <button id="button2"  class="digits">2</button>
+    <button id="button3" class="digits">3</button>
+    <button id="button4" class="digits">4</button>
+    <button id="button5" class="digits">5</button>
+    <button id="button6" class="digits">6</button>
+    <button id="button7" class="digits">7</button>
+    <button id="button8" class="digits">8</button>
+    <button id="button9" class="digits">9</button>
+</div>
+<div><button id="plusButton">+</button><button id="equalButton">=</button></div>
 
-         </div>
-        <script src="js/dom.js"></script>
+
+        <script src="js/events.js"></script>
+
     </body>
 </html>
