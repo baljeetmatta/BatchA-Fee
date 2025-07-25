@@ -144,7 +144,7 @@ C.   d      e.  f
 class Base
 {
     
-    print=()=>{
+     print(){
         console.log("Base called")
     }
 
@@ -154,11 +154,11 @@ class Derived extends Base
 {
     Derived(data,age)
     {
-        super(data);
-        
+       // super(data);
+
     }
     print=()=>{
-       // super.print();
+        super.print();
     }
 }
 
